@@ -1,0 +1,55 @@
+body {
+    color: lavender;
+    background-color: black;
+    width: 60vw;
+    margin: calc(100vh - 25px - 1em) auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+p {
+    margin: 0.5em;
+    text-align: center;
+}
+
+p#sign {
+    animation: blinker 2.5s ease-in-out infinite
+}
+
+hr {
+    width: 70%;
+}
+
+a:link {
+    color: hotpink
+}
+
+a:hover {
+    color: hotpink;
+    animation: blinker 1.5s linear infinite
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+a:visited {
+    color: crimson
+}
+
+a:active {
+    color: black
+}
+
+audio, img, video, iframe {
+    width: 80%
+}
+
+video {
+    loop
+    muted
+    autoplay
+}
