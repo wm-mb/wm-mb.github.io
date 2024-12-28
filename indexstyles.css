@@ -30,8 +30,8 @@
     font-family:serif;
     height: 30vh;
     width: 60vw;
-    min-height: 10em;
-    min-width: 40em;
+    min-height: 200px;
+    min-width: 400px;
     margin: auto;
     background-image: linear-gradient(darkseagreen, black);
     background-position: center;
