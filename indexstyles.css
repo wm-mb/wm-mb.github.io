@@ -41,7 +41,6 @@
 body {
     color: lavender;
     margin: 0;
-    font-size: max(1em, 0.5cm);
 }
 
 div#central {
@@ -60,7 +59,8 @@ div#cabeçalho > p {
 p {
     color: lavender;
     margin: 0;
-    text-align: center
+    text-align: center;
+    font-size: max(1em, 0.5cm);
 }
 
 hr {
