@@ -41,6 +41,7 @@
 body {
     color: lavender;
     margin: 0;
+    font-size: max(1em, 16px);
 }
 
 div#central {
