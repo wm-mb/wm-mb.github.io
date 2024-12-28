@@ -30,8 +30,8 @@
     font-family:serif;
     height: 30vh;
     width: 60vw;
-    min-height: 100px;
-    min-width: 200px;
+    min-height: 4cm;
+    min-width: 8cm;
     margin: auto;
     background-image: linear-gradient(darkseagreen, black);
     background-position: center;
@@ -41,7 +41,7 @@
 body {
     color: lavender;
     margin: 0;
-    font-size: max(1em, 16px);
+    font-size: max(1em, 0.5cm);
 }
 
 div#central {
