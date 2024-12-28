@@ -2,6 +2,7 @@
     <head>
         <link rel=stylesheet href="indexstyles.css">
         <meta charset="UTF-8">
+        <script src="center-scroll.js" defer></script>
         <script>
             MathJax = {
                       tex: {
@@ -14,8 +15,7 @@
         </script>
     </head>
     <body>
-
-<div class="parallax">
+<div id="central" class="parallax">
 
 <div class="parallax__layer layer1">
 </div>
@@ -37,5 +37,20 @@
 </div>
 
 </div>
+        <script>
+var timer = null;
+window.addEventListener('scroll', function() {
+    if(timer !== null) {
+        clearTimeout(timer);
+    }
+    timer = setTimeout(function() {
+    window.scrollTo({top: document.body.scrollWidth/2 - window.innerWidth/2,
+        left: document.body.scrollHeight/2 - window.innerHeight/2,
+        behavior: "smooth",})
+    }, 120);
+}, false);
+// document.getElementById("central").addEventListener("click", function() {
+// });
+        </script>
     </body>
 </html>

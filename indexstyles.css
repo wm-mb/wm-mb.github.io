@@ -41,6 +41,9 @@ body {
     margin: 0;
 }
 
+div#central {
+}
+
 div#cabeçalho {
     display:flex;
     flex-direction:row;

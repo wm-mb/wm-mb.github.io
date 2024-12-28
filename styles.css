@@ -13,10 +13,6 @@ p {
     text-align: center;
 }
 
-p#sign {
-    animation: blinker 2.5s ease-in-out infinite
-}
-
 hr {
     width: 70%;
 }
