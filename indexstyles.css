@@ -1,5 +1,5 @@
 .parallax {
-    perspective: 500px;
+    perspective: 0px;
     height: 170vh;
     width: 140vw;
     overflow-x: hidden;
@@ -19,7 +19,7 @@
     background-position: center;
     width: 100%;
     height: 100%;
-    transform: translateZ(-1500px) scale(4);
+    transform: translateZ(0px) scale(1);
 }
 
 .layer2 {
@@ -35,13 +35,12 @@
     margin: auto;
     background-image: linear-gradient(darkseagreen, black);
     background-position: center;
-    transform: translateZ(-50px) scale(1.1);
+    transform: translateZ(0px) scale(1);
 }
 
 body {
     color: lavender;
     margin: 0;
-    font-size: max(1em, 16px);
 }
 
 div#central {
