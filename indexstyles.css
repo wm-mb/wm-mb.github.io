@@ -2,6 +2,8 @@
     perspective: 500px;
     height: 170vh;
     width: 140vw;
+    min-height: 17cm;
+    min-width: 14cm;
     overflow-x: hidden;
     overflow-y: hidden;
 }
