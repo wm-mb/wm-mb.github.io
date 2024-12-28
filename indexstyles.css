@@ -1,9 +1,7 @@
 .parallax {
-    perspective: 37em;
+    perspective: 500px;
     height: 170vh;
     width: 140vw;
-    min-height: 17cm;
-    min-width: 14cm;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -32,8 +30,8 @@
     font-family:serif;
     height: 30vh;
     width: 60vw;
-    min-height: 5cm;
-    min-width: 10cm;
+    min-height: 100px;
+    min-width: 200px;
     margin: auto;
     background-image: linear-gradient(darkseagreen, black);
     background-position: center;
@@ -43,6 +41,7 @@
 body {
     color: lavender;
     margin: 0;
+    font-size: max(1em, 16px);
 }
 
 div#central {
