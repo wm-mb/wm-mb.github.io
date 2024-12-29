@@ -1,7 +1,7 @@
 .parallax {
     perspective: 0px;
-    height: 170vh !important;
-    width: 140vw !important;
+    height: 170vh;
+    width: 140vw;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -28,8 +28,8 @@
     justify-content:center;
     align-items:stretch;
     font-family:serif;
-    height: 30vh !important;
-    width: 60vw !important;
+    height: 30vh;
+    width: 60vw;
     min-height: 4cm !important;
     min-width: 8cm !important;
     margin: auto;
