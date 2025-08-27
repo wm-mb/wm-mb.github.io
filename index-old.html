@@ -23,7 +23,7 @@
 
 <div class="parallax__layer layer2">
 
-<p>William Braucks</p>
+<p>unscrolling...</p>
 
 <hr></hr>
 
@@ -38,5 +38,20 @@
 </div>
 
 </div>
+        <script>
+var timer = null;
+window.addEventListener('scroll', function() {
+    if(timer !== null) {
+        clearTimeout(timer);
+    }
+    timer = setTimeout(function() {
+    window.scrollTo({top: document.body.scrollHeight/2 - window.innerHeight/2,
+        left: document.body.scrollWidth/2 - window.innerWidth/2,
+        behavior: "smooth",})
+    }, 120);
+}, false);
+// document.getElementById("central").addEventListener("click", function() {
+// });
+        </script>
     </body>
 </html>
