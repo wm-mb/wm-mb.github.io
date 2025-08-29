@@ -3,7 +3,6 @@
         <link rel=stylesheet href="indexstyles.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width; initial-scale=1.0;">
-        <script src="center-scroll.js" defer></script>
         <script>
             MathJax = {
                       tex: {
@@ -38,20 +37,5 @@
 </div>
 
 </div>
-        <script>
-var timer = null;
-window.addEventListener('scroll', function() {
-    if(timer !== null) {
-        clearTimeout(timer);
-    }
-    timer = setTimeout(function() {
-    window.scrollTo({top: document.body.scrollHeight/2 - window.innerHeight/2,
-        left: document.body.scrollWidth/2 - window.innerWidth/2,
-        behavior: "smooth",})
-    }, 120);
-}, false);
-// document.getElementById("central").addEventListener("click", function() {
-// });
-        </script>
     </body>
 </html>

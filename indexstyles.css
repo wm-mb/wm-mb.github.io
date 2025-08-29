@@ -1,7 +1,7 @@
 .parallax {
     perspective: 0px;
-    height: 170vh;
-    width: 140vw;
+    height: 100vh;
+    width: 100vw;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -31,7 +31,7 @@
     height: 30vh;
     width: 60vw;
     min-height: 4cm !important;
-    min-width: 8cm !important;
+    min-width: 9cm !important;
     margin: auto;
     background-image: linear-gradient(darkseagreen, black);
     background-position: center;
