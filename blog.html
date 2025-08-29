@@ -14,9 +14,10 @@
         </script>
     </head>
     <body>
-<!--
-<p>Eu fiz essa figura giratória aqui no meu compiuter:</p>
--->
+
+<p>Currently under development. Enjoy these nice pictures.</p>
+
+<hr />
 
 <p>
     <video src="videos/poliedro-rotacao.mp4"
@@ -30,9 +31,6 @@
 </p>
 
 <hr />
-<!--
-<p>Te liga também que joia essa pracinha que eu achei:</p>
--->
 
 <p>
 <a href="https://www.openstreetmap.org/way/243800445" target=”_blank” rel="noopener noreferrer">
@@ -44,19 +42,14 @@
 </p>
 
 <hr />
-<!--
-<p>Não existe mais Deus. A TV é o Novo Deus. Agora você tem de adorar a Deus comendo um pacotão de Cheetos® na frente da TV. A TV é um totem protetor. Quando você desliga a TV todas as barreiras protetoras espirituais que estavam em volta da tua casa caem por terra e ela fica completamente vulnerável, podendo ser invadida por qualquer tipo de criatura nefasta como até mesmo pasme:</p>
 
-<p>Um livro!</p>
+<p id="last-updated"></p>
 
-<hr />
-
-<p>Aos poucos vou me ajeitando por aqui. Faz o teu site também e me envia o link pra trocar notícias!</p>
-
-<p>Ab,</p>
--->
-
-<p>\(\mathbb{W}\), 28 de Dezembro de 2024</p>
+<script>
+  const options = { day: "numeric", month: "long", year: "numeric" };
+  const lastModified = new Date(document.lastModified).toLocaleDateString("en-US", options);
+  document.getElementById("last-updated").textContent = "Last updated: " + lastModified;
+</script>
 
     </body>
 </html>

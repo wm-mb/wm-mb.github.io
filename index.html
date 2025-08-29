@@ -28,15 +28,30 @@
 <hr></hr>
 
 <div id="cabeçalho">
-    <p><a href="math.html" title="mathematics">🧮</a></p>
+    <p><a href="math.html" title="mathematics">🧮 - Research</a></p>
     <p>|</p>
-    <p><a href="blog.html" title="blog">📝</a></p>
+    <p><a href="blog.html" title="blog">📝 - About me</a></p>
     <p>|</p>
-    <p><a href="mailto:braucks.w@gmail.com" target=”_blank” rel="noopener noreferrer" title="email">📬</a></p>
+    <p><a href="mailto:braucks.w@gmail.com" target=”_blank” rel="noopener noreferrer" title="email">📬 - Contact</a></p>
 </div>
 
 </div>
 
 </div>
+        <script>
+var timer = null;
+window.addEventListener('scroll', function() {
+    if(timer !== null) {
+        clearTimeout(timer);
+    }
+    timer = setTimeout(function() {
+    window.scrollTo({top: document.body.scrollHeight/2 - window.innerHeight/2,
+        left: document.body.scrollWidth/2 - window.innerWidth/2,
+        behavior: "smooth",})
+    }, 120);
+}, false);
+// document.getElementById("central").addEventListener("click", function() {
+// });
+        </script>
     </body>
 </html>

@@ -68,11 +68,11 @@ hr {
 }
 
 a:link {
-    color: hotpink
+    color: lavender
 }
 
 a:hover {
-    color: hotpink;
+    color: lavender;
     animation: blinker 1.5s linear infinite
 }
 
@@ -83,7 +83,7 @@ a:hover {
 }
 
 a:visited {
-    color: crimson
+    color: lavender
 }
 
 a:active {
