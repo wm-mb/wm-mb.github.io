@@ -38,5 +38,19 @@
 </div>
 
 </div>
+        <script>
+var timer = null;
+window.addEventListener('click', function() {
+    if(timer !== null) {
+        clearTimeout(timer);
+    }
+    timer = setTimeout(function() {
+    window.scrollTo({top: document.body.scrollHeight/2 - window.innerHeight/2,
+        behavior: "smooth",})
+    }, 120);
+}, false);
+// document.getElementById("central").addEventListener("click", function() {
+// });
+        </script>
     </body>
 </html>
